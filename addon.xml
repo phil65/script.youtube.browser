@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="context.youtube.browser" name="Youtube Browser" version="1.0.0" provider-name="phil65">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+    <import addon="script.extendedinfo" version="2.0.6"/>
+  </requires>
+  <extension point="xbmc.python.script"           library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Youtube Browser</summary>
+    <description lang="en">Browse Youtube with an optimized interface for searching and filtering videos, playlists and channels.</description>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <forum></forum>
+    <source></source>
+  </extension>
+</addon>
